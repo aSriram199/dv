@@ -36,9 +36,9 @@ const Home = () => {
   ];
 
   const clubImages = [
-    { src: event1, alt: 'Academic Conference' },
-    { src: event2, alt: 'Networking Event' },
-    { src: event3, alt: 'Workshop Session' },
+    { src: "./Gallery/12.png", alt: 'Academic Conference' },
+    { src: "./Gallery/2.png", alt: 'Networking Event' },
+    { src: "./Gallery/1.png", alt: 'Workshop Session' },
   ];
 
   return (

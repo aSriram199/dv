@@ -11,7 +11,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Rohini M.png"
   },
   
   {
@@ -20,7 +20,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Adarsh.png"
   },
   
   {
@@ -29,7 +29,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Rakesh.png"
   },
   {
     "name": "J.Niharika",
@@ -53,7 +53,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/SRIDEVI.png"
   },
   {
     "name": "Bhargava Charan",
@@ -61,7 +61,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/BHARGAVA_CHARAN.png"
   },
   {
     "name": "Shiva Sai",
@@ -69,7 +69,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/ShivaSai.png"
   },
   {
     "name": "Ashik",
@@ -77,7 +77,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/G.ASHIK.png"
   },
   {
     "name": "Sriram",
@@ -85,7 +85,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Sriram.png"
   },
   {
     "name": "Gayatri",
@@ -93,7 +93,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Gayathri_Gurram.png"
   },
   {
     "name": "Akshay",
@@ -101,7 +101,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Akshay.png"
   },
   {
     "name": "Sowmya",
@@ -109,7 +109,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Sowmya.png"
   },
   {
     "name": "Harshith",
@@ -117,7 +117,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Harshith.png"
   },
   {
     "name": "Priyanka",
@@ -125,23 +125,16 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Priyanka.png"
   },
-  {
-    "name": "Jonathan",
-    "position": "Documentation Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": ""
-  },
+  
   {
     "name": "Bhumika",
     "position": "Documentation Coordinator",
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Bhumika_Macharla.png"
   },
   {
     "name": "Jayasimha",
@@ -149,7 +142,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Jayasimha.png"
   },
   {
     "name": "Deepthi",
@@ -157,7 +150,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Deepthi.png"
   },
   {
     "name": "Manish",
@@ -165,7 +158,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Manish.png"
   },
   {
     "name": "Gnanika",
@@ -173,7 +166,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Gnanika.png"
   }
 ]
 
@@ -214,12 +207,8 @@ const Team = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
-              <motion.div
+              <div
                 key={member.name}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
                 className="card-academic text-center group"
               >
                 <div className="relative mb-6">
@@ -237,24 +226,20 @@ const Team = () => {
 
                 {/* Social Links */}
                 <div className="flex justify-center space-x-4">
-                  <motion.a
+                  <a
                     href={`mailto:${member.email}`}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
                     className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
                     <Mail size={18} />
-                  </motion.a>
-                  <motion.a
+                  </a>
+                  <a
                     href={member.linkedin}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
                     className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
                     <Linkedin size={18} />
-                  </motion.a>
+                  </a>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>

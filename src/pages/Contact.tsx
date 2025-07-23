@@ -46,26 +46,15 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'contact@aec.edu',
+      details: 'datavedhi.club@gmail.com',
       description: 'Send us an email anytime'
     },
-    {
-      icon: Phone,
-      title: 'Phone',
-      details: '+1 (555) 123-4567',
-      description: 'Mon-Fri 9AM-5PM'
-    },
+    
     {
       icon: MapPin,
       title: 'Location',
-      details: 'Student Center, Room 201',
-      description: 'University Campus'
-    },
-    {
-      icon: Clock,
-      title: 'Office Hours',
-      details: 'Mon-Fri: 2PM-6PM',
-      description: 'Drop by anytime'
+      details: 'SAC , Vignana Bharathi Institute of Technology',
+      description: 'Hyderabad'
     }
   ];
 
