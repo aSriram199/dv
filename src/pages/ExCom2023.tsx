@@ -8,152 +8,153 @@ const ExCom2023 = () => {
       "name": "Pranay",
       "position": "President",
       "achievements": "Leadership excellence",
-      "image": ""
+      "image": "/Excom23/Pranay.jpg"
     },
     {
       "name": "Shravya",
       "position": "Vice President",
       "achievements": "Team coordination",
-      "image": ""
+      "image": "/Excom23/shravya.jpg"
     },
     {
       "name": "Dinesh",
       "position": "Technical Lead",
       "achievements": "Code quality",
-      "image": ""
+      "image": "/Excom23/dinesh.jpg"
     },
     {
       "name": "Varshini",
       "position": "Technical Co-Lead",
       "achievements": "Tech mentoring",
-      "image": ""
+      "image": "/Excom23/varshini.jpg"
     },
     {
       "name": "Chandana",
       "position": "Project Lead",
       "achievements": "Project delivery",
-      "image": ""
+      "image": "/Excom23/chandana.jpg"
     },
     {
       "name": "Amruth Varsh",
       "position": "Project Co-Lead",
       "achievements": "Agile execution",
-      "image": ""
+      "image": "/Excom23/amruthvarsh.jpg"
     },
     {
       "name": "Sumanjali Seetha",
       "position": "Documentation Lead",
       "achievements": "Clear reporting",
-      "image": ""
+      "image": "/Excom23/Sumanjali Seetha.jpg"
     },
     {
       "name": "Guru Supriya",
       "position": "Design Lead",
       "achievements": "Creative visuals",
-      "image": ""
-    },
-    {
-      "name": "Samreen Begum",
-      "position": "Technical Coordinator",
-      "achievements": "Bug fixing",
-      "image": ""
-    },
-    {
-      "name": "Adharsh",
-      "position": "Technical Coordinator",
-      "achievements": "Tech assistance",
-      "image": ""
-    },
-    {
-      "name": "Sharanya",
-      "position": "Technical Coordinator",
-      "achievements": "System integration",
-      "image": ""
-    },
-    {
-      "name": "Viditha Reddy",
-      "position": "Technical Coordinator",
-      "achievements": "Module testing",
-      "image": ""
-    },
-    {
-      "name": "Bodhi Sathwa",
-      "position": "Project Coordinator",
-      "achievements": "Task scheduling",
-      "image": ""
-    },
-    {
-      "name": "Sameer Prabhas",
-      "position": "Project Coordinator",
-      "achievements": "Team support",
-      "image": ""
-    },
-    {
-      "name": "Puran Rathod",
-      "position": "Project Coordinator",
-      "achievements": "Milestone planning",
-      "image": ""
-    },
-    {
-      "name": "Parimala Nikita",
-      "position": "Project Coordinator",
-      "achievements": "Workflow design",
-      "image": ""
-    },
-    {
-      "name": "LaasyaAkshara",
-      "position": "Documentation Coordinator",
-      "achievements": "Content curation",
-      "image": ""
-    },
-    {
-      "name": "Rohini",
-      "position": "Documentation Coordinator",
-      "achievements": "Report drafting",
-      "image": ""
-    },
-    {
-      "name": "Dedeepya",
-      "position": "Documentation Coordinator",
-      "achievements": "Manual creation",
-      "image": ""
-    },
-    {
-      "name": "Surya Kumar",
-      "position": "Documentation Coordinator",
-      "achievements": "Data formatting",
-      "image": ""
-    },
-    {
-      "name": "Chitti Sujana",
-      "position": "Designing Coordinator",
-      "achievements": "UI layouts",
-      "image": ""
-    },
-    {
-      "name": "Isaac",
-      "position": "Designing Coordinator",
-      "achievements": "Logo design",
-      "image": ""
-    },
-    {
-      "name": "Praneeth",
-      "position": "Designing Coordinator",
-      "achievements": "Poster making",
-      "image": ""
-    },
-    {
-      "name": "Praveen",
-      "position": "Designing Coordinator",
-      "achievements": "Theme planning",
-      "image": ""
-    },
-    {
-      "name": "Revathi",
-      "position": "Designing Coordinator",
-      "achievements": "Visual assets",
-      "image": ""
+      "image": "/Excom23/guru supriya.jpg"
     }
+    // },
+    // {
+    //   "name": "Samreen Begum",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Bug fixing",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Adharsh",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Tech assistance",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Sharanya",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "System integration",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Viditha Reddy",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Module testing",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Bodhi Sathwa",
+    //   "position": "Project Coordinator",
+    //   "achievements": "Task scheduling",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Sameer Prabhas",
+    //   "position": "Project Coordinator",
+    //   "achievements": "Team support",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Puran Rathod",
+    //   "position": "Project Coordinator",
+    //   "achievements": "Milestone planning",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Parimala Nikita",
+    //   "position": "Project Coordinator",
+    //   "achievements": "Workflow design",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "LaasyaAkshara",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Content curation",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Rohini",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Report drafting",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Dedeepya",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Manual creation",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Surya Kumar",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Data formatting",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Chitti Sujana",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "UI layouts",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Isaac",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Logo design",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Praneeth",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Poster making",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Praveen",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Theme planning",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Revathi",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Visual assets",
+    //   "image": ""
+    // }
   ]
   ;
 

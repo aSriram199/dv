@@ -63,6 +63,7 @@ const Footer = () => {
                 <li key={link.path}>
                   <Link
                     to={link.path}
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     className="text-primary-foreground/80 hover:text-secondary transition-colors link-elegant"
                   >
                     {link.name}

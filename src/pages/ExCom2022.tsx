@@ -45,133 +45,134 @@ const ExCom2022 = () => {
       "position": "Website Lead & Design Co-Lead",
       "achievements": "Web interface",
       "image": ""
-    },
-    {
-      "name": "Yugendhar",
-      "position": "Technical Coordinator",
-      "achievements": "API integration",
-      "image": ""
-    },
-    {
-      "name": "Vineesha",
-      "position": "Technical Coordinator",
-      "achievements": "Logic development",
-      "image": ""
-    },
-    {
-      "name": "R.V.K. Sravya",
-      "position": "Technical Coordinator",
-      "achievements": "Debugging expert",
-      "image": ""
-    },
-    {
-      "name": "Dinesh",
-      "position": "Technical Coordinator",
-      "achievements": "Server support",
-      "image": ""
-    },
-    {
-      "name": "Harshith",
-      "position": "Technical Coordinator",
-      "achievements": "App builder",
-      "image": ""
-    },
-    {
-      "name": "Vinay",
-      "position": "Technical Coordinator",
-      "achievements": "Tool integration",
-      "image": ""
-    },
-    {
-      "name": "Varshini",
-      "position": "Technical Coordinator",
-      "achievements": "Module creation",
-      "image": ""
-    },
-    {
-      "name": "E. Shamitha",
-      "position": "Documentation Coordinator",
-      "achievements": "User guides",
-      "image": ""
-    },
-    {
-      "name": "P. Rithika",
-      "position": "Documentation Coordinator",
-      "achievements": "Content editing",
-      "image": ""
-    },
-    {
-      "name": "P. Vineesha",
-      "position": "Documentation Coordinator",
-      "achievements": "Document audits",
-      "image": ""
-    },
-    {
-      "name": "S. Sumanjali",
-      "position": "Documentation Coordinator",
-      "achievements": "Policy drafting",
-      "image": ""
-    },
-    {
-      "name": "Aravind",
-      "position": "Designing Coordinator",
-      "achievements": "Theme concepts",
-      "image": ""
-    },
-    {
-      "name": "K. Akash",
-      "position": "Designing Coordinator",
-      "achievements": "Poster designs",
-      "image": ""
-    },
-    {
-      "name": "P. Yeshwanth",
-      "position": "Designing Coordinator",
-      "achievements": "UI templates",
-      "image": ""
-    },
-    {
-      "name": "Pranay",
-      "position": "Designing Coordinator",
-      "achievements": "Creative strategy",
-      "image": ""
-    },
-    {
-      "name": "Sai Charan",
-      "position": "Designing Coordinator",
-      "achievements": "Visual branding",
-      "image": ""
-    },
-    {
-      "name": "Pradeep",
-      "position": "Designing Coordinator",
-      "achievements": "Graphic layouts",
-      "image": ""
-    },
-    {
-      "name": "Gnana Karthikeya",
-      "position": "Designing Coordinator",
-      "achievements": "Illustration work",
-      "image": ""
-    },
-    {
-      "name": "P. Praneeth",
-      "position": "Website Coordinator",
-      "achievements": "Frontend builder",
-      "image": ""
-    },
-    {
-      "name": "Chandana",
-      "position": "Website Coordinator",
-      "achievements": "Web hosting",
-      "image": ""
-    },
-    {
-      "name": "Pranay",
-      "position": "Website Coordinator",
-      "achievements": "Deployment expert",
-      "image": ""
     }
+    // },
+    // {
+    //   "name": "Yugendhar",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "API integration",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Vineesha",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Logic development",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "R.V.K. Sravya",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Debugging expert",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Dinesh",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Server support",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Harshith",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "App builder",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Vinay",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Tool integration",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Varshini",
+    //   "position": "Technical Coordinator",
+    //   "achievements": "Module creation",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "E. Shamitha",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "User guides",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "P. Rithika",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Content editing",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "P. Vineesha",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Document audits",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "S. Sumanjali",
+    //   "position": "Documentation Coordinator",
+    //   "achievements": "Policy drafting",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Aravind",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Theme concepts",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "K. Akash",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Poster designs",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "P. Yeshwanth",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "UI templates",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Pranay",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Creative strategy",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Sai Charan",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Visual branding",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Pradeep",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Graphic layouts",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Gnana Karthikeya",
+    //   "position": "Designing Coordinator",
+    //   "achievements": "Illustration work",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "P. Praneeth",
+    //   "position": "Website Coordinator",
+    //   "achievements": "Frontend builder",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Chandana",
+    //   "position": "Website Coordinator",
+    //   "achievements": "Web hosting",
+    //   "image": ""
+    // },
+    // {
+    //   "name": "Pranay",
+    //   "position": "Website Coordinator",
+    //   "achievements": "Deployment expert",
+    //   "image": ""
+    // }
   ]
   ;
 
