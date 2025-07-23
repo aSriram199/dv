@@ -13,14 +13,7 @@ const Team = () => {
     "linkedin": "",
     "image": ""
   },
-  {
-    "name": "Ch.Praneeth",
-    "position": "Vice President",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": ""
-  },
+  
   {
     "name": "K.Adharsh",
     "position": "Secretary",
@@ -29,14 +22,7 @@ const Team = () => {
     "linkedin": "",
     "image": ""
   },
-  {
-    "name": "Samreen Begum",
-    "position": "Technical Lead",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": ""
-  },
+  
   {
     "name": "M.Rakesh",
     "position": "Project Lead",
