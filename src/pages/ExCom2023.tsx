@@ -206,12 +206,8 @@ const ExCom2023 = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {excomMembers.map((member, index) => (
-              <motion.div
+              <div
                 key={member.name}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
                 className="card-academic text-center"
               >
                 <img
@@ -222,7 +218,7 @@ const ExCom2023 = () => {
                 <h3 className="text-xl font-semibold mb-2 text-foreground">{member.name}</h3>
                 <p className="text-secondary font-medium mb-4">{member.position}</p>
                 <p className="text-muted-foreground leading-relaxed">{member.achievements}</p>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -249,19 +245,15 @@ const ExCom2023 = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {achievements.map((achievement, index) => (
-              <motion.div
+              <div
                 key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
                 className="flex items-start space-x-4 card-academic"
               >
                 <div className="w-6 h-6 bg-secondary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <div className="w-2 h-2 bg-white rounded-full"></div>
                 </div>
                 <p className="text-foreground font-medium leading-relaxed">{achievement}</p>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
