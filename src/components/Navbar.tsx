@@ -28,8 +28,8 @@ const Navbar = () => {
   ];
 
   const excomItems = [
-    { name: 'Ex-Com 2022-23', path: '/excom-2022' },
     { name: 'Ex-Com 2023-24', path: '/excom-2023' },
+    { name: 'Ex-Com 2022-23', path: '/excom-2022' },
   ];
 
   const isActive = (path: string) => {
