@@ -175,7 +175,7 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-              Club Life in Action
+              Events
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Experience the vibrant community and enriching activities that define our club culture
@@ -217,8 +217,8 @@ const Home = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-center mt-12"
           >
-            <Link to="/gallery" className="btn-academic">
-              View Full Gallery
+            <Link to="/events" className="btn-academic" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+              View All Events
             </Link>
           </motion.div>
         </div>
