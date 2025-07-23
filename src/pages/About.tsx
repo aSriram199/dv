@@ -5,39 +5,34 @@ import { Eye, Target, Calendar, Users, Award, Rocket } from 'lucide-react';
 const About = () => {
   const timelineEvents = [
     {
-      year: '2018',
+      year: 'OCT , 2022',
       title: 'Foundation',
       description: 'Academic Excellence Club was founded by a group of passionate students dedicated to academic growth.'
     },
     {
-      year: '2019',
-      title: 'First Annual Conference',
-      description: 'Organized our inaugural academic conference with over 200 participants from various disciplines.'
+      year: 'NOV , 2022',
+      title: 'VAIDHUSHI: A FLAGSHIP EVENT',
+      description: 'Vaidushi is a bootcamp that introduces students to R programming and data mining through practical, real-world applications.'
     },
     {
-      year: '2020',
-      title: 'Digital Transformation',
-      description: 'Adapted to online learning and hosted virtual workshops reaching students nationwide.'
+      year: 'FEB , 2023',
+      title: 'TechFiesta 2K23',
+      description: 'Datavedhi.club organized TechFiesta 2K23 at VBIT, a dynamic tech fest featuring competitions, a bootcamp, and a 24-hour hackathon to foster innovation, learning, and real-world tech skills.'
     },
     {
-      year: '2021',
-      title: 'Leadership Program Launch',
-      description: 'Launched our comprehensive leadership development program for emerging student leaders.'
+      year: 'MAR , 2024',
+      title: 'BI Nexus: A Power BI Odyssey ',
+      description: 'Datavedhi.club hosted "BI Nexus" on March 4, 2024—a hands-on Power BI workshop that equipped students with key data visualization and analytics skills.'
     },
     {
-      year: '2022',
-      title: 'Research Initiative',
-      description: 'Established undergraduate research mentorship program connecting students with faculty.'
+      year: 'NOV , 2024', 
+      title: 'IGNIS XR-AI Hackathon',
+      description: 'Datavedhi.club hosted "BI Nexus" on March 4, 2024—a hands-on Power BI workshop that equipped students with key data visualization and analytics skills.'
     },
     {
-      year: '2023',
-      title: 'Community Outreach',
-      description: 'Expanded our impact through community service and educational outreach programs.'
-    },
-    {
-      year: '2024',
-      title: 'Innovation Hub',
-      description: 'Opened our innovation hub for collaborative projects and entrepreneurial ventures.'
+      year: 'JUL , 2025',
+      title: 'DATA.LINK',
+      description: 'DATA.LINK – A hands-on workshop on app-database connectivity. Learn how data flows between applications and databases in real-world systems.'
     }
   ];
 
