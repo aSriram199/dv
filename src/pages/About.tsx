@@ -77,6 +77,27 @@ relevant skills to solve real-world data challenges. Foster a culture of continu
 learning, collaboration, and technological advancement in AI, Machine Learning, and 
 Data Analytics.
               </p>
+              <ul className="mt-6 space-y-3">
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                  <span className="text-muted-foreground">Establishing a prominent Data Science community where innovation is celebrated 
+                  through hackathons, flagship events, and workshops. </span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                  <span className="text-muted-foreground">To empower students with industry-relevant skills to solve real-world data challenges. </span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                  <span className="text-muted-foreground">To foster a culture of continuous learning, collaboration, and technological advancement 
+                  in AI, Machine Learning, and Data Analytics. </span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                  <span className="text-muted-foreground">To create opportunities for students to engage with industry experts and gain real-world 
+                  exposure in Data Science. </span>
+                </li>
+              </ul>
               {/* <p className="text-lg text-muted-foreground leading-relaxed mt-4">
               To be a leading Data Science community that nurtures innovation through hackathons, flagship events, and workshops. Empower students with industry-relevant skills to solve real-world data challenges. Foster a culture of continuous learning, collaboration, and technological advancement in AI, Machine Learning, and Data Analytics.
               </p> */}
@@ -101,24 +122,28 @@ Machine Learning, and Data Analytics through hands-on experience. Bridge the gap
 between academia and industry, empowering future data professionals to solve real
 world challenges.
               </p>
-              {/* <ul className="mt-6 space-y-3">
+              <ul className="mt-6 space-y-3">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">Promote academic excellence through collaborative learning</span>
+                  <span className="text-muted-foreground">Creating a dynamic learning environment by organizing hackathons, flagship events, and 
+                  workshops in Data Science</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">Foster leadership development and personal growth</span>
+                  <span className="text-muted-foreground">To equip students with practical skills in AI, Machine Learning, and Data Analytics through 
+                  hands-on experience.</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">Create networking opportunities and mentorship programs</span>
+                  <span className="text-muted-foreground">Empowering students in their journey to become data professionals by bridging the gap 
+                  between academia and industry.</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <span className="text-muted-foreground">Encourage innovation and critical thinking</span>
+                  <span className="text-muted-foreground">Fostering creativity and collaboration through mentorship, research, and knowledge-sharing 
+                  initiatives in Data Science.</span>
                 </li>
-              </ul> */}
+              </ul>
             </motion.div>
           </div>
         </div>
