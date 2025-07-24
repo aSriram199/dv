@@ -70,6 +70,7 @@ export default {
 				'club-teal-dark': 'hsl(var(--club-teal-dark))',
 				'club-teal-light': 'hsl(var(--club-teal-light))',
 				'club-orange': 'hsl(var(--club-orange))',
+				'club-green': 'hsl(var(--club-green))',
 				'club-orange-light': 'hsl(var(--club-orange-light))',
 				'club-cream': 'hsl(var(--club-cream))',
 				'club-gray': 'hsl(var(--club-gray))'

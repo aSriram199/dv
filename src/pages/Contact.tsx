@@ -53,7 +53,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Location',
-      details: 'SAC , Vignana Bharathi Institute of Technology',
+      details: 'Vignana Bharathi Institute of Technology',
       description: 'Hyderabad'
     }
   ];

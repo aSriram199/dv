@@ -102,32 +102,7 @@ const Gallery = () => {
       </AnimatePresence>
 
       {/* Stats Section */}
-      <section className="section-academic bg-muted/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            {[
-              { number: '500+', label: 'Photos Captured' },
-              { number: '50+', label: 'Events Documented' },
-              { number: '1000+', label: 'Memories Created' },
-              { number: '5', label: 'Years of History' }
-            ].map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="card-academic"
-              >
-                <div className="text-3xl lg:text-4xl font-bold text-secondary mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-muted-foreground">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };

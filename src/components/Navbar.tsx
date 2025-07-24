@@ -68,7 +68,7 @@ const Navbar = () => {
                 to={item.path}
                 className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 relative ${
                   isActive(item.path)
-                    ? 'text-club-orange bg-club-orange/10'
+                    ? 'text-club-orange bg-club-green-500'
                     : 'text-club-teal-dark hover:text-club-orange hover:bg-club-orange/5'
                 }`}
               >

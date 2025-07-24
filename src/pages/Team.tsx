@@ -45,7 +45,7 @@ const Team = () => {
     "bio": "",
     "email": "",
     "linkedin": "",
-    "image": ""
+    "image": "/Team/Shivani.png"
   },
   {
     "name": "Sridevi",

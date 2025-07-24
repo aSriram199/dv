@@ -26,7 +26,7 @@ const Events = () => {
       time: '3:00 PM - 7:00 PM',
       location: 'Nalanda Auditorium , VBIT',
       attendees: '250',
-      description: 'Datavedhi.club hosted "BI Nexus" on March 4, 2024—a hands-on Power BI workshop that equipped students with key data visualization and analytics skills.',
+      description: 'IGNIS XR-AI, a three-day event by DataVedhi.Club from Nov 7–9, 2024, offered hands-on training in XR and AI through Unity sessions, real-world applications, and a collaborative hackathon.',
       image: './Ignis.png'
     },
     
