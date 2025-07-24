@@ -36,9 +36,9 @@ const Home = () => {
   ];
 
   const clubImages = [
-    { src: "./Gallery/2.png", alt: 'IGNIS XR-AI' },
-    { src: "./Gallery/7.png", alt: 'BI Nexus' },
-    { src: "./Vaidushi.png", alt: 'Vaidhushi' },
+    { src: "./Gallery/2.png", alt: 'IGNIS XR-AI',description: 'IGNIS XR-AI, a three-day event by DataVedhi.Club from Nov 7–9, 2024, offered hands-on training in XR and AI through Unity sessions, real-world applications, and a collaborative hackathon.' },
+    { src: "./Gallery/7.png", alt: 'BI Nexus',description: 'Datavedhi.club hosted "BI Nexus" on March 4, 2024—a hands-on Power BI workshop that equipped students with key data visualization and analytics skills.' },
+    { src: "./Vaidushi.png", alt: 'Vaidhushi',description: 'DataVedhi.Club organized "Vaidhushi" on March 15, 2024—a day-long event featuring a panel discussion on AI ethics and a workshop on AI-driven data analysis.' },
   ];
 
   return (
@@ -177,13 +177,11 @@ const Home = () => {
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
               Events
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Experience the vibrant community and enriching activities that define our club culture
-            </p>
+            {/* No shared <p> here; move description to each card below */}
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {clubImages.map((image, index) => (
+            {clubImages.map((image, index ,description) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -203,7 +201,7 @@ const Home = () => {
                     {image.alt}
                   </h3>
                   <p className="text-muted-foreground mt-2">
-                    Engaging in meaningful activities that promote growth and excellence
+                    {image.description}
                   </p>
                 </div>
               </motion.div>

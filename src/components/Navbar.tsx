@@ -68,15 +68,15 @@ const Navbar = () => {
                 to={item.path}
                 className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 relative ${
                   isActive(item.path)
-                    ? 'text-club-orange bg-club-green-500'
-                    : 'text-club-teal-dark hover:text-club-orange hover:bg-club-orange/5'
+                    ? 'text-club-green bg-club-green/10'
+                    : 'text-club-teal-dark hover:text-club-green hover:club-green/5'
                 }`}
               >
                 {item.name}
                 {isActive(item.path) && (
                   <motion.div
                     layoutId="activeTab"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-club-orange"
+                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-club-green"
                     initial={false}
                     transition={{ type: "spring", stiffness: 500, damping: 30 }}
                   />
@@ -90,8 +90,8 @@ const Navbar = () => {
                 onClick={() => setIsExcomOpen(!isExcomOpen)}
                 className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 relative flex items-center space-x-1 ${
                   isExcomActive()
-                    ? 'text-club-orange bg-club-orange/10'
-                    : 'text-club-teal-dark hover:text-club-orange hover:bg-club-orange/5'
+                    ? 'text-club-green bg-club-green/10'
+                    : 'text-club-teal-dark hover:text-club-green hover:bg-club-green/5'
                 }`}
               >
                 <span>Ex-Com</span>
@@ -99,7 +99,7 @@ const Navbar = () => {
                 {isExcomActive() && (
                   <motion.div
                     layoutId="activeTab"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-club-orange"
+                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-club-green"
                     initial={false}
                     transition={{ type: "spring", stiffness: 500, damping: 30 }}
                   />
@@ -121,8 +121,8 @@ const Navbar = () => {
                         onClick={() => setIsExcomOpen(false)}
                         className={`block px-4 py-3 font-medium transition-colors first:rounded-t-lg last:rounded-b-lg ${
                           isActive(item.path)
-                            ? 'text-club-orange bg-club-orange/10'
-                            : 'text-club-teal-dark hover:text-club-orange hover:bg-club-orange/5'
+                            ? 'text-club-green bg-club-green/10'
+                            : 'text-club-teal-dark hover:text-club-green hover:bg-club-green/5'
                         }`}
                       >
                         {item.name}
@@ -160,8 +160,8 @@ const Navbar = () => {
                     onClick={() => setIsOpen(false)}
                     className={`block px-4 py-3 rounded-lg font-medium transition-colors ${
                       isActive(item.path)
-                        ? 'text-club-orange bg-club-orange/10'
-                        : 'text-club-teal-dark hover:text-club-orange hover:bg-club-orange/5'
+                        ? 'text-club-green bg-club-green/10'
+                        : 'text-club-teal-dark hover:text-club-green hover:bg-club-green/5'
                     }`}
                   >
                     {item.name}
@@ -178,8 +178,8 @@ const Navbar = () => {
                       onClick={() => setIsOpen(false)}
                       className={`block px-4 py-3 rounded-lg font-medium transition-colors ${
                         isActive(item.path)
-                          ? 'text-club-orange bg-club-orange/10'
-                          : 'text-club-teal-dark hover:text-club-orange hover:bg-club-orange/5'
+                          ? 'text-club-green bg-club-green/10'
+                          : 'text-club-teal-dark hover:text-club-green hover:bg-club-green/5'
                       }`}
                     >
                       {item.name}

@@ -228,11 +228,11 @@ const ExCom2022 = () => {
                 key={member.name}
                 className="card-academic text-center"
               >
-                <img
+                {/* <img
                   src={member.image}
                   alt={member.name}
                   className="w-24 h-24 mx-auto rounded-full object-cover border-4 border-secondary/20 mb-6"
-                />
+                /> */}
                 <h3 className="text-xl font-semibold mb-2 text-foreground">{member.name}</h3>
                 <p className="text-secondary font-medium mb-4">{member.position}</p>
                 <p className="text-muted-foreground leading-relaxed">{member.achievements}</p>
