@@ -177,12 +177,9 @@ const ExCom2022 = () => {
   ;
 
   const achievements = [
-    'Successfully transitioned to hybrid learning model',
-    'Launched mentorship program with 100+ participants',
-    'Established partnerships with 5 academic departments',
-    'Increased membership by 150%',
-    'Organized 12 virtual workshops and seminars',
-    'Received "Outstanding Student Organization" award'
+    'DataVedhi (then Academic Excellence Club) was founded by passionate students with a vision for academic growth.',
+    'Organized VAIDHUSHI, a flagship bootcamp introducing students to R programming and data mining through hands-on projects.',
+    'Hosted TechFiesta 2K23 at VBIT, featuring a 24-hour hackathon, competitions, and bootcamps to promote innovation and applied tech skills.'
   ];
 
   return (

@@ -159,13 +159,8 @@ const ExCom2023 = () => {
   ;
 
   const achievements = [
-    'Opened state-of-the-art innovation hub facility',
-    'Established scholarship fund benefiting 25 students',
-    'Created alumni network with 200+ active members',
-    'Launched research publication showcasing student work',
-    'Organized international academic exchange program',
-    'Achieved record membership of 300+ active students',
-    'Received university\'s "Excellence in Leadership" award'
+    'Conducted BI Nexus, a practical Power BI workshop empowering students with data visualization and analytics capabilities.',
+    'Organized IGNIS XR-AI Hackathon, a high-impact event blending AI and extended reality technologies to challenge and inspire student innovation.',
   ];
 
   return (
