@@ -6,7 +6,7 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   // Use local images from /Gallery/1.png to /Gallery/12.png
-  const galleryImages = Array.from({ length: 21 }, (_, i) => ({
+  const galleryImages = Array.from({ length: 25 }, (_, i) => ({
     src: `/Gallery/${i + 1}.png`,
     alt: `Gallery Image ${i + 1}`
   }));
