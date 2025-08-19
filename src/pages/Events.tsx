@@ -6,6 +6,11 @@ const Events = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
 
   const upcomingEvents = [
+    
+    
+  ];
+
+  const pastEvents = [
     {
       title: 'DATA.LINK',
       date: 'March 15, 2024',
@@ -16,10 +21,6 @@ const Events = () => {
       registrationLink: 'https://bit.ly/datalink-registrationform',
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop'
     },
-    
-  ];
-
-  const pastEvents = [
     {
       title: 'IGNIS XR-AI: Learn, Hack, Relish – Crafting Tomorrow\'s AI Today!',
       date: 'September 15, 2023',
@@ -112,75 +113,111 @@ const Events = () => {
       <section className="section-academic bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8">
-            {currentEvents.map((event, index) => (
+            {currentEvents.length === 0 ? (
               <motion.div
-                key={event.title}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="card-academic overflow-hidden"
+                transition={{ duration: 0.6 }}
+                className="card-academic text-center py-12"
               >
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                  {/* Event Image */}
-                  <div className="lg:col-span-1">
-                    <img
-                      src={event.image}
-                      alt={event.title}
-                      className="w-full h-64 lg:h-full object-cover rounded-lg"
-                    />
-                  </div>
-
-                  {/* Event Details */}
-                  <div className="lg:col-span-2 space-y-4">
-                    <h3 className="text-2xl lg:text-2xl font-bold text-foreground">
-                      {event.title}
-                    </h3>
-                    
-                    <div className="flex flex-wrap gap-6 text-muted-foreground">
-                      {/* <div className="flex items-center space-x-2">
-                        <Calendar size={18} className="text-secondary" />
-                        <span>{event.date}</span>
-                      </div> */}
-                      <div className="flex items-center space-x-2">
-                        <MapPin size={18} className="text-secondary" />
-                        <span>{event.location}</span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <Users size={18} className="text-secondary" />
-                        <span>{event.attendees} attendees</span>
-                      </div>
-                    </div>
-
-                    <p className="text-lg text-muted-foreground leading-relaxed">
-                      {event.description}
-                    </p>
-
-                    <div className="pt-4">
-                      {activeTab === 'upcoming' ? (
-                        <a
-                          href={event.registrationLink || "#"}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <motion.button
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="btn-academic"
-                          >
-                            Register Now
-                          </motion.button>
-                        </a>
-                      ) : (
-                        <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
-                          Event Completed
-                        </span>
-                      )}
-                    </div>
-                  </div>
+                <div className="flex justify-center mb-4">
+                  <Calendar size={48} className="text-secondary" />
                 </div>
+                <h3 className="text-2xl font-bold text-foreground mb-2">
+                  {activeTab === 'upcoming' ? 'No upcoming events right now' : 'No events to display'}
+                </h3>
+                <p className="text-muted-foreground mb-6">
+                  {activeTab === 'upcoming'
+                    ? 'There are no upcoming events at present. Got any guesses for our next event?'
+                    : 'Please check back later.'}
+                </p>
+                {activeTab === 'upcoming' && (
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="btn-academic inline-block"
+                    onClick={() => {
+                      // Handle the action here instead of navigating
+                      window.location.href = '/contact';
+                      // You can add your custom logic here
+                    }}
+                  >
+                    Share a guess
+                  </motion.button>
+                )}
               </motion.div>
-            ))}
+            ) : (
+              currentEvents.map((event, index) => (
+                <motion.div
+                  key={event.title}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1, duration: 0.6 }}
+                  className="card-academic overflow-hidden"
+                >
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    {/* Event Image */}
+                    <div className="lg:col-span-1">
+                      <img
+                        src={event.image}
+                        alt={event.title}
+                        className="w-full h-64 lg:h-full object-cover rounded-lg"
+                      />
+                    </div>
+
+                    {/* Event Details */}
+                    <div className="lg:col-span-2 space-y-4">
+                      <h3 className="text-2xl lg:text-2xl font-bold text-foreground">
+                        {event.title}
+                      </h3>
+                      
+                      <div className="flex flex-wrap gap-6 text-muted-foreground">
+                        {/* <div className="flex items-center space-x-2">
+                          <Calendar size={18} className="text-secondary" />
+                          <span>{event.date}</span>
+                        </div> */}
+                        <div className="flex items-center space-x-2">
+                          <MapPin size={18} className="text-secondary" />
+                          <span>{event.location}</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Users size={18} className="text-secondary" />
+                          <span>{event.attendees} attendees</span>
+                        </div>
+                      </div>
+
+                      <p className="text-lg text-muted-foreground leading-relaxed">
+                        {event.description}
+                      </p>
+
+                      <div className="pt-4">
+                        {activeTab === 'upcoming' ? (
+                          <a
+                            href={event.registrationLink || "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <motion.button
+                              whileHover={{ scale: 1.05 }}
+                              whileTap={{ scale: 0.95 }}
+                              className="btn-academic"
+                            >
+                              Register Now
+                            </motion.button>
+                          </a>
+                        ) : (
+                          <span className="inline-flex items-center px-4 py-2 bg-muted text-muted-foreground rounded-lg">
+                            Event Completed
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              ))
+            )}
           </div>
         </div>
       </section>

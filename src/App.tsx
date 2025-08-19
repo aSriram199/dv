@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Team from "./pages/Team";
 import ExCom2022 from "./pages/ExCom2022";
 import ExCom2023 from "./pages/ExCom2023";
+import ExCom2024 from "./pages/ExCom2024";
 import Events from "./pages/Events";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/team" element={<Team />} />
             <Route path="/excom-2022" element={<ExCom2022 />} />
             <Route path="/excom-2023" element={<ExCom2023 />} />
+            <Route path="/excom-2024" element={<ExCom2024 />} />
             <Route path="/events" element={<Events />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />

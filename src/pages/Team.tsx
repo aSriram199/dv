@@ -3,172 +3,66 @@ import { motion } from 'framer-motion';
 import { Mail, Linkedin, Github } from 'lucide-react';
 
 const Team = () => {
-  const teamMembers = 
-    [
-  {
-    "name": "M.Rohini",
-    "position": "President",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Rohini M.png"
-  },
+  const teamMembers = [
+    {
+      "name": "Bhragava Charan",
+      "position": "President",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/BHARGAVA_CHARAN.png"
+    },
+    {
+      "name": "ASHIK",
+      "position": "Vice-President",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/G.ASHIK.png"
+    },
+    {
+      "name": "ShivaSai",
+      "position": "Secretary",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/ShivaSai.png"
+    },
+    {
+      "name": "Sriram",
+      "position": "Technical Lead",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/Sriram.png"
+    },
+    {
+      "name": "Akshay",
+      "position": "Project Lead",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/Akshay.png"
+    },
+    {
+      "name": "Keerthana",
+      "position": "Designing Lead",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/Keerthana.png"
+    },
+    {
+      "name": "Bhumika Macharla",
+      "position": "Documentation Lead",
+      "bio": "",
+      "email": "",
+      "linkedin": "",
+      "image": "/Team/Bhumika_Macharla.png"
+    }
+  ]
   
-  {
-    "name": "K.Adharsh",
-    "position": "Secretary",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Adarsh.png"
-  },
-  
-  {
-    "name": "M.Rakesh",
-    "position": "Project Lead",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Rakesh.png"
-  },
-  {
-    "name": "J.Niharika",
-    "position": "Documentation Lead",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Niharika.png"
-  },
-  {
-    "name": "P.Shivani",
-    "position": "Design Lead",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Shivani.png"
-  },
-  {
-    "name": "Sridevi",
-    "position": "Technical Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/SRIDEVI.png"
-  },
-  {
-    "name": "Bhargava Charan",
-    "position": "Technical Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/BHARGAVA_CHARAN.png"
-  },
-  {
-    "name": "Shiva Sai",
-    "position": "Technical Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/ShivaSai.png"
-  },
-  {
-    "name": "Ashik",
-    "position": "Technical Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/G.ASHIK.png"
-  },
-  {
-    "name": "Sriram",
-    "position": "Project Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Sriram.png"
-  },
-  {
-    "name": "Gayatri",
-    "position": "Project Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Gayathri_Gurram.png"
-  },
-  {
-    "name": "Akshay",
-    "position": "Project Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Akshay.png"
-  },
-  {
-    "name": "Sowmya",
-    "position": "Project Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Sowmya.png"
-  },
-  {
-    "name": "Harshith",
-    "position": "Documentation Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Harshith.png"
-  },
-  {
-    "name": "Priyanka",
-    "position": "Documentation Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Priyanka.png"
-  },
-  
-  {
-    "name": "Bhumika",
-    "position": "Documentation Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Bhumika_Macharla.png"
-  },
-  {
-    "name": "Jayasimha",
-    "position": "Designing Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Jayasimha.png"
-  },
-  {
-    "name": "Deepthi",
-    "position": "Designing Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Deepthi.png"
-  },
-  {
-    "name": "Manish",
-    "position": "Designing Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Manish.png"
-  },
-  {
-    "name": "Gnanika",
-    "position": "Designing Coordinator",
-    "bio": "",
-    "email": "",
-    "linkedin": "",
-    "image": "/Team/Gnanika.png"
-  }
-]
+
 
 
   return (
